@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B10DE2E1EC25D08004D269F /* NavControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B10DE2D1EC25D08004D269F /* NavControllerDelegate.swift */; };
+		4B10DE301EC25ECF004D269F /* PingTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B10DE2F1EC25ECF004D269F /* PingTransitionAnimator.swift */; };
 		4B47477E1EC24145006AB9B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47477D1EC24145006AB9B2 /* AppDelegate.swift */; };
 		4B4747801EC24145006AB9B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47477F1EC24145006AB9B2 /* ViewController.swift */; };
 		4B4747831EC24145006AB9B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4747811EC24145006AB9B2 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B10DE2D1EC25D08004D269F /* NavControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavControllerDelegate.swift; sourceTree = "<group>"; };
+		4B10DE2F1EC25ECF004D269F /* PingTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PingTransitionAnimator.swift; sourceTree = "<group>"; };
 		4B47477A1EC24145006AB9B2 /* PingTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B47477D1EC24145006AB9B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B47477F1EC24145006AB9B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 			children = (
 				4B47477D1EC24145006AB9B2 /* AppDelegate.swift */,
 				4B47477F1EC24145006AB9B2 /* ViewController.swift */,
+				4B10DE2D1EC25D08004D269F /* NavControllerDelegate.swift */,
+				4B10DE2F1EC25ECF004D269F /* PingTransitionAnimator.swift */,
 				4B4747811EC24145006AB9B2 /* Main.storyboard */,
 				4B4747841EC24145006AB9B2 /* Assets.xcassets */,
 				4B4747861EC24145006AB9B2 /* LaunchScreen.storyboard */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B10DE2E1EC25D08004D269F /* NavControllerDelegate.swift in Sources */,
 				4B4747801EC24145006AB9B2 /* ViewController.swift in Sources */,
 				4B47477E1EC24145006AB9B2 /* AppDelegate.swift in Sources */,
+				4B10DE301EC25ECF004D269F /* PingTransitionAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +309,7 @@
 				4B47478E1EC24145006AB9B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
