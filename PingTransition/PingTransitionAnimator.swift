@@ -17,7 +17,11 @@ class PingTransitionAnimator: NSObject {
 extension PingTransitionAnimator: UIViewControllerAnimatedTransitioning {
     
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
+<<<<<<< HEAD
         return 0.3
+=======
+        return 0.5
+>>>>>>> f2eba12176c5e82029e6c67924e91d3e9d5168d1
     }
     
     func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {

@@ -111,7 +111,10 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+<<<<<<< HEAD
 				English,
+=======
+>>>>>>> f2eba12176c5e82029e6c67924e91d3e9d5168d1
 				en,
 				Base,
 			);
@@ -275,7 +278,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.PingTransition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+<<<<<<< HEAD
 				SWIFT_VERSION = 4.0;
+=======
+				SWIFT_VERSION = 3.0;
+>>>>>>> f2eba12176c5e82029e6c67924e91d3e9d5168d1
 			};
 			name = Debug;
 		};
@@ -287,7 +294,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.PingTransition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+<<<<<<< HEAD
 				SWIFT_VERSION = 4.0;
+=======
+				SWIFT_VERSION = 3.0;
+>>>>>>> f2eba12176c5e82029e6c67924e91d3e9d5168d1
 			};
 			name = Release;
 		};

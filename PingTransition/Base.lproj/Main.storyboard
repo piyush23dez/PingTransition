@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="oPS-Mu-Y1w">
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="oPS-Mu-Y1w">
+>>>>>>> f2eba12176c5e82029e6c67924e91d3e9d5168d1
     <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
+<<<<<<< HEAD
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+=======
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+>>>>>>> f2eba12176c5e82029e6c67924e91d3e9d5168d1
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,6 +29,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< HEAD
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G9H-XG-xUe">
                                 <rect key="frame" x="334" y="462" width="100" height="100"/>
                                 <constraints>
@@ -41,19 +50,45 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="35"/>
+=======
+                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="44" placeholderIntrinsicHeight="44" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCN-f5-btP">
+                                <rect key="frame" x="709" y="28" width="44" height="44"/>
+                                <color key="backgroundColor" red="0.10219701776649748" green="0.10219701776649748" blue="0.10219701776649748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="ZYT-M6-yfY"/>
+                                    <constraint firstAttribute="height" constant="44" id="sfL-QD-P1L"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="22"/>
+>>>>>>> f2eba12176c5e82029e6c67924e91d3e9d5168d1
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="0aC-P4-mgO" kind="show" identifier="PushSegue" id="Eap-vY-Exy"/>
                                 </connections>
                             </button>
+<<<<<<< HEAD
+=======
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G9H-XG-xUe">
+                                <rect key="frame" x="361.5" y="501.5" width="45" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+>>>>>>> f2eba12176c5e82029e6c67924e91d3e9d5168d1
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.45137636460000002" blue="0.85454291839999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="G9H-XG-xUe" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Cjr-uU-D4O"/>
                             <constraint firstItem="G9H-XG-xUe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PAs-gG-HMo"/>
+<<<<<<< HEAD
                             <constraint firstItem="qCN-f5-btP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dYE-zS-N4D"/>
                             <constraint firstItem="qCN-f5-btP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xbm-gf-6W3"/>
+=======
+                            <constraint firstItem="qCN-f5-btP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="TEp-X7-pRm"/>
+                            <constraint firstAttribute="trailing" secondItem="qCN-f5-btP" secondAttribute="trailing" constant="15" id="eYf-XV-Pqh"/>
+>>>>>>> f2eba12176c5e82029e6c67924e91d3e9d5168d1
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="X1J-wX-wxs"/>
@@ -77,6 +112,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< HEAD
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqz-6g-C1O">
                                 <rect key="frame" x="384" y="512" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -93,12 +129,25 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="35"/>
+=======
+                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="44" placeholderIntrinsicHeight="44" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M9J-6H-HmL">
+                                <rect key="frame" x="709" y="28" width="44" height="44"/>
+                                <color key="backgroundColor" red="0.1021970178" green="0.1021970178" blue="0.1021970178" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="Ks0-BP-TJR"/>
+                                    <constraint firstAttribute="height" constant="44" id="q2C-SO-Xlc"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="22"/>
+>>>>>>> f2eba12176c5e82029e6c67924e91d3e9d5168d1
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="circleTapped:" destination="0aC-P4-mgO" eventType="touchUpInside" id="XvE-hi-1b0"/>
                                 </connections>
                             </button>
+<<<<<<< HEAD
                         </subviews>
                         <color key="backgroundColor" red="0.51942514819999996" green="0.2091846108" blue="0.65559565360000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -106,6 +155,21 @@
                             <constraint firstItem="M9J-6H-HmL" firstAttribute="centerY" secondItem="com-50-Q7F" secondAttribute="centerY" id="7L3-My-Ug5"/>
                             <constraint firstItem="hqz-6g-C1O" firstAttribute="centerX" secondItem="com-50-Q7F" secondAttribute="centerX" id="K6f-pZ-nsu"/>
                             <constraint firstItem="hqz-6g-C1O" firstAttribute="centerY" secondItem="com-50-Q7F" secondAttribute="centerY" id="RWT-fA-xcl"/>
+=======
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqz-6g-C1O">
+                                <rect key="frame" x="360.5" y="501.5" width="47" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.51942514819999996" green="0.2091846108" blue="0.65559565360000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="M9J-6H-HmL" secondAttribute="trailing" constant="15" id="61h-Z6-7le"/>
+                            <constraint firstItem="hqz-6g-C1O" firstAttribute="centerX" secondItem="com-50-Q7F" secondAttribute="centerX" id="K6f-pZ-nsu"/>
+                            <constraint firstItem="hqz-6g-C1O" firstAttribute="centerY" secondItem="com-50-Q7F" secondAttribute="centerY" id="RWT-fA-xcl"/>
+                            <constraint firstItem="M9J-6H-HmL" firstAttribute="top" secondItem="AjE-JQ-cf4" secondAttribute="bottom" constant="8" id="hQL-RU-cMN"/>
+>>>>>>> f2eba12176c5e82029e6c67924e91d3e9d5168d1
                         </constraints>
                     </view>
                     <connections>
@@ -122,6 +186,10 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="oPS-Mu-Y1w" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="EVn-4Y-BlG">
+<<<<<<< HEAD
+=======
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+>>>>>>> f2eba12176c5e82029e6c67924e91d3e9d5168d1
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
