@@ -6,6 +6,12 @@
 //  Copyright © 2017 Piyush Sharma. All rights reserved.
 //
 
+//git init
+//git add README.md
+//git commit -m "first commit"
+//git remote add origin https://github.com/piyush23dez/Demo.git
+//git push -u origin master
+
 import UIKit
 
 @UIApplicationMain
